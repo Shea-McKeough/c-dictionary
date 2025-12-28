@@ -21,10 +21,10 @@ deleting, and inspecting key–value pairs.
 ## Build
 
 Compile with:
-gcc -Wall -Wextra -std=c11 main.c dict.c -o dict
+'gcc -Wall -Wextra -std=c11 main.c dict.c -o dict'
 
 Run with:
-./dict
+'./dict'
 
 ## Usage
 
