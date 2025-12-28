@@ -43,13 +43,3 @@ void    dict_del (dict_t* dic, const char* key);
 size_t  dict_size (const dict_t* dic);
 
 void    dict_clear (dict_t* dic);
-
-/*
- * Function pointer type for apply().
- */
-typedef void (*dict_apply_fun_t) (const char* key, const char* val, void* arg);
-
-/*
- * Apply fun to each pair key/val.  arg is an extra argument passed to fun.
- */
-void    dict_apply (const dict_t* dic, const dict_apply_fun_t fun, void* arg);
