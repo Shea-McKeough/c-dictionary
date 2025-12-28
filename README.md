@@ -21,14 +21,22 @@ deleting, and inspecting key–value pairs.
 ## Build
 
 Compile with:
-'gcc -Wall -Wextra -std=c11 main.c dict.c -o dict'
+
+```bash
+gcc -Wall -Wextra -std=c11 main.c dict.c -o dict
+```
 
 Run with:
-'./dict'
+
+```bash
+./dict
+```
 
 ## Usage
 
 Example session:
+
+```text
 > put foo:bar
 > get foo
 bar
@@ -37,9 +45,10 @@ bar
 > del foo
 > siz
 0
+```
 
 ## Notes
 
 Some helper code (such as the `readline` function and initial program structure)
-was provided by the course instructor. The dictionary implementation, command handling,
+was provided by course staff. The dictionary implementation, command handling,
 and memory management logic were written by me.
